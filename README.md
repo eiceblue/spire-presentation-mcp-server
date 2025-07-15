@@ -34,17 +34,17 @@ uv pip install -e .
 
 Start the server (default port 8000):
 ```bash
-uv run spire-presentation-mcp-server
+uv run spire-ppt-mcp-server
 ```
 
 Custom port (e.g., 8080):
 
 ```bash
 # Bash/Linux/macOS
-export FASTMCP_PORT=8080 && uv run spire-presentation-mcp-server
+export FASTMCP_PORT=8080 && uv run spire-ppt-mcp-server
 
 # Windows PowerShell
-$env:FASTMCP_PORT = "8080"; uv run spire-presentation-mcp-server
+$env:FASTMCP_PORT = "8080"; uv run spire-ppt-mcp-server
 ```
 
 ## Integration with AI Tools
